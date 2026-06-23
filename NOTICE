@@ -1,0 +1,22 @@
+YTMusic Alexa Skill
+Copyright (C) 2026 luis171095
+
+This product is a modified version of:
+
+    YouTubeForAlexa
+    Copyright (C) wes1993
+    https://github.com/wes1993/YouTubeForAlexa
+    Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+As required by the AGPL-3.0, this derivative work is distributed under the
+same license (see the LICENSE file for the full text).
+
+Summary of modifications made by luis171095 (2026):
+  - YouTube stream extraction switched to the yt-dlp `android_vr` InnerTube
+    client to bypass the PO-token/SABR wall and play full songs without the
+    ~2 minute cut-off.
+  - Audio format selection now prefers the highest-bitrate m4a (AAC-LC).
+  - Search results are re-ranked to prefer individual songs over long
+    compilations / mixes (`_song_rank` in `video_search`).
+  - Datacenter proxy support for stream extraction from AWS IPs.
+  - Added project documentation, packaging script and deployment guide.

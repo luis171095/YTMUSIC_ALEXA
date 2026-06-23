@@ -1,4 +1,17 @@
 # -*- coding: utf-8 -*-
+#
+# YTMusic Alexa Skill
+# Copyright (C) 2026 luis171095
+#
+# Based on YouTubeForAlexa (https://github.com/wes1993/YouTubeForAlexa),
+# Copyright (C) wes1993. Modified by luis171095 in 2026.
+#
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version. This program is distributed WITHOUT ANY WARRANTY.
+# See the GNU Affero General Public License <https://www.gnu.org/licenses/>
+# for more details.
 
 # To run as an Alexa hosted skill:
 # 1. Uncomment lines 9-14 below

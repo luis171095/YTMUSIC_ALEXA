@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
 [![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange.svg)](https://aws.amazon.com/lambda/)
 [![Alexa Skills Kit](https://img.shields.io/badge/Alexa-Skills%20Kit-00caff.svg)](https://developer.amazon.com/alexa)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
 
 Pídele a tu Echo que ponga cualquier canción, artista o lista de YouTube y la reproduce
 como audio en segundo plano, con controles de voz nativos (siguiente, pausa, mezclar, etc.).
@@ -167,5 +168,14 @@ El truco del cliente `android_vr` para esquivar el candado PO-token está inspir
 
 ## 📄 Licencia
 
-Este proyecto deriva de `wes1993/YouTubeForAlexa`; respeta los términos de licencia del
-proyecto original. Revisa la licencia upstream antes de redistribuir.
+Licenciado bajo la **GNU Affero General Public License v3.0 (AGPL-3.0)** — ver [`LICENSE`](LICENSE).
+
+Este proyecto es un trabajo derivado de [`wes1993/YouTubeForAlexa`](https://github.com/wes1993/YouTubeForAlexa)
+(también AGPL-3.0), por lo que hereda la misma licencia copyleft. Las modificaciones de este
+fork están documentadas en [`NOTICE`](NOTICE).
+
+> **Nota AGPL-3.0:** si ofreces esta skill como servicio a otras personas a través de una red,
+> debes poner el código fuente (incluidas tus modificaciones) a disposición de esos usuarios.
+> Para uso personal en tu propio dispositivo no hay obligación de distribuir.
+
+Copyright (C) 2026 luis171095 · Copyright (C) wes1993 (obra original).
