@@ -1,0 +1,44 @@
+# ─── Secretos (NUNCA subir) ─────────────────────────────────────────────
+cookies.txt
+.env
+*.env
+!.env.example
+
+# ─── Paquete de despliegue ──────────────────────────────────────────────
+alexa_skill.zip
+*.zip
+
+# ─── Artefactos de Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# ─── Dependencias vendorizadas (se regeneran con build_package.py) ──────
+# Se instalan con pip --target . para empaquetar el Lambda; no se versionan.
+*.dist-info/
+share/
+Levenshtein/
+certifi/
+charset_normalizer/
+dateutil/
+fuzzywuzzy/
+idna/
+pytube/
+rapidfuzz/
+requests/
+urllib3/
+yt_dlp/
+six.py
+typing_extensions.py
+81d243bd2c585b0f4821__mypyc.cpython-310-x86_64-linux-gnu.so
+
+# ─── Editor / SO ────────────────────────────────────────────────────────
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

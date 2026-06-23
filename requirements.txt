@@ -1,0 +1,6 @@
+requests
+python-dateutil
+fuzzywuzzy
+python-Levenshtein
+pytube
+yt-dlp
